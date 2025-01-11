@@ -27,7 +27,7 @@ if number_of_students != 0:
 Good example:
 
 ```python
-from main import (
+from app.main import (
     KnightWithArmour,
     KnightWithoutArmour,
     SuperHeroKnightWithGun
@@ -37,7 +37,7 @@ from main import (
 Bad example:
 
 ```python
-from main import KnightWithArmour,
+from app.main import KnightWithArmour,
 
 KnightWithoutArmour,
 SuperHeroKnightWithGun
@@ -116,13 +116,13 @@ def multiply_by_2(number, cars: list):
 ```python
 import datetime
 
-from errors import NotVaccinatedError
+from app.errors import NotVaccinatedError
 ```
 
 Bad example:
 
 ```python
-from errors import NotVaccinatedError
+from app.errors import NotVaccinatedError
 import datetime
 ```
 
@@ -131,7 +131,7 @@ import datetime
 Good example:
 
 ```python
-from errors import NotVaccinatedError
+from app.errors import NotVaccinatedError
 ```
 
 Bad example:
